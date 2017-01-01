@@ -1,0 +1,24 @@
+.about-content .row img {
+  width: 100%;
+  overflow: hidden;
+}
+.pos-rel {
+  position: relative;
+  display: block;
+}
+.about-content  .pos-rel:hover img {
+  opacity: .8;
+}
+.pos-rel > p {
+  position: absolute;
+  bottom: -16px;
+  line-height: 65px;
+  background: rgba(0,174,238,.8);
+  height: 65px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+}
+.pad-20 {
+padding:20px 0;
+}

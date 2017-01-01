@@ -1,0 +1,38 @@
+.guid {
+
+}
+.guid-first-title:hover, .guid-first-title:active，.guid-active{
+  background: rgba(194,214,229,.6)
+}
+
+.article-content h3 {
+    margin: 0;
+    color: #0ba1e4;
+    border-top: 1px solid #c1c1c1;
+    line-height: 1.5em;
+    padding-top: 15px;
+  }
+.article-content p {
+
+line-height: 2em;
+font-weight: 400;
+margin-top: 10px;
+margin-bottom: 10px;
+}
+.article-content ul {
+  list-style: circle;
+    padding-left: 2em;
+    margin-left: 1.3em;
+}
+.article-content li{
+  list-style: circle;
+}
+.list-group-item.active {
+    z-index: 2;
+    color: #fff;
+    background-color:#0ba1e4;
+    border-color: #0ba1e4;
+}
+caption {
+    caption-side: top;
+}
