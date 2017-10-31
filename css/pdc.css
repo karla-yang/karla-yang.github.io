@@ -1,0 +1,37 @@
+.pad-20 {
+padding:20px 0;
+}
+.more {
+  border: 1px solid #00aeee;
+  background: #00aeee;
+  color: rgba(255,255,255,1);
+  border-radius: .25rem;
+  border: 1px solid transparent;
+      padding: .375rem .75rem;
+      font-size: 1rem;
+      line-height: 1.5;
+}
+.more:hover {
+text-decoration: none;
+  color: rgba(255,255,255,1);
+}
+.more:focus {
+    outline: 0;
+    box-shadow: rgba(0 0 0 0.2rem ) rgba(0,123,255,.25);
+  }
+.card:hover img {
+  opacity: .8;
+}
+
+
+
+
+  /* 手机样式  */
+  @media  screen and (max-width:580px){
+    .col-12 {
+    padding: 15px 30px;
+  }
+  .pad-20 > h2 {
+    padding: 0 15px;
+  }
+  }
